@@ -1,8 +1,23 @@
 # 🐘 Advanced JavaScript
 
-## Objects
+## **{ }** Objects
 
 An object is a collection of properties and a property is an association between a `name (or key)` and a `value`. A property's value can be a function, in which case the property is known as `method`.
+
+### Details should know
+
+- Properties that don't exist evaluate to **`undefined`**
+- All keys get **"stringified"**y
+
+  ```javascript
+  const o1 = {};
+
+  o1[1] = "hello";
+  console.log(o1[1]); // 'hello'
+
+  o1["1"] = "goodbye";
+  console.log(o1[1]); // 'goodbye'
+  ```
 
 ### Multiple ways to define an object
 
