@@ -7,7 +7,7 @@ An object is a collection of properties and a property is an association between
 ### Details should know
 
 - Properties that don't exist evaluate to **`undefined`**
-- All keys get **"stringified"**y
+- All keys get **"stringified"**
 
   ```javascript
   const o1 = {};
