@@ -19,6 +19,14 @@ An object is a collection of properties and a property is an association between
   console.log(o1[1]); // 'goodbye'
   ```
 
+### Classes
+
+Classes is a blueprint of functionality to avoid code duplication.
+
+Classes are a template for creating objects. They encapsulate data with code to work on that data. Classes in JS are built on [prototypes](#prototypes) but also have some syntax and semantics that are unique to classes.
+
+Classes are in fact **Special functions**. Class can be defined as _class expression_ & _class decleration_
+
 ### Multiple ways to define an object
 
 <table>
