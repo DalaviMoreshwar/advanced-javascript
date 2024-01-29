@@ -13,7 +13,7 @@ An object is a collection of properties and a property is an association between
 
 ![object stringfield example](./assets/images/object-stringfield.png)
 
-### Classes
+### Class
 
 Classes is a blueprint of functionality to avoid code duplication.
 
@@ -25,7 +25,7 @@ Classes are in fact **Special functions**. Class can be defined as _class expres
 
 ### Constructor
 
-The constructor method is a special method of the [class](#class) for creating & initializing an object instance of that class.
+The constructor method is a special method of the [Class](#Class) for creating & initializing an object instance of that class.
 
 ### Multiple ways to define an object
 
