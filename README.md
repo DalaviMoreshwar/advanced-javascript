@@ -146,4 +146,6 @@ Classes are in fact **Special functions**. Class can be defined as _class expres
 
 The constructor method is a special method of the [Class](#Class) for creating & initializing an object instance of that class.
 
-> [!TIP] > `this` refers to the instance of the class, not the class itself.
+> [!TIP]
+>
+> `this` refers to the instance of the class, not the class itself.
