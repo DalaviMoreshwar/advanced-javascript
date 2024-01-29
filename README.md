@@ -173,16 +173,15 @@ The constructor method is a special method of the [Class](#Class) for creating &
 
 #### 📖 Exersise
 
-<!--
-  BankAccount class
-  - Properties
-    - balance (defaults to 0 if not provided)
-    - accountHolder
-    - accountNumber
-  - Methods
-    - deposit(amt) - increases balance by amt
-    - withdraw(amt) - decreses credit by amt
- -->
+BankAccount class
+
+- Properties
+  - `balance` (defaults to 0 if not provided)
+  - `accountHolder`
+  - `accountNumber`
+- Methods
+  - `deposit(amt)` - increases balance by `amt`
+  - `withdraw(amt)` - decreses credit by `amt`
 
 <p align="center">
   <img src="./assets/images/class-real-life-example.png" width="65%" alt="class-real-life-example" />
