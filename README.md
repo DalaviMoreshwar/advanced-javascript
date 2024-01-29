@@ -23,6 +23,10 @@ Classes are in fact **Special functions**. Class can be defined as _class expres
 
 ![Basic Class Example](./assets/images/basic-class.png)
 
+### Constructor
+
+The constructor method is a special method of the [class](#class) for creating & initializing an object instance of that class.
+
 ### Multiple ways to define an object
 
 <table>
