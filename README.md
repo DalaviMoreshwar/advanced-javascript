@@ -11,7 +11,9 @@ An object is a collection of properties and a property is an association between
 - Properties that don't exist evaluate to **`undefined`**
 - All keys get **"stringifiled"**
 
-![object stringfield example](./assets/images/object-stringfield.png)
+<p align="center">
+  <img src="./assets/images/object-stringfield.png" width="80%" alt="object-stringfield" />
+</p>
 
 <details>
 <summary><b>Multiple ways to define an object</b></summary>
@@ -140,7 +142,9 @@ Classes are a template for creating objects. They encapsulate data with code to 
 
 Classes are in fact **Special functions**. Class can be defined as _class expression_ & _class decleration_
 
-![Basic Class Example](./assets/images/basic-class.png)
+<p align="center">
+  <img src="./assets/images/basic-class.png" width="80%" alt="basic-class" />
+</p>
 
 ### Constructor
 
