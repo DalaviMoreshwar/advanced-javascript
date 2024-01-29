@@ -2,22 +2,16 @@
 
 ## **{ }** Objects
 
+fetch-in-useEffect
+
 An object is a collection of properties and a property is an association between a `name (or key)` and a `value`. A property's value can be a function, in which case the property is known as `method`.
 
 ### Details should know
 
 - Properties that don't exist evaluate to **`undefined`**
-- All keys get **"stringified"**
+- All keys get **"stringifiled"**
 
-  ```javascript
-  const o1 = {};
-
-  o1[1] = "hello";
-  console.log(o1[1]); // 'hello'
-
-  o1["1"] = "goodbye";
-  console.log(o1[1]); // 'goodbye'
-  ```
+![object stringfield example](./assets/images/object-stringfield.png)
 
 ### Classes
 
@@ -26,6 +20,8 @@ Classes is a blueprint of functionality to avoid code duplication.
 Classes are a template for creating objects. They encapsulate data with code to work on that data. Classes in JS are built on [prototypes](#prototypes) but also have some syntax and semantics that are unique to classes.
 
 Classes are in fact **Special functions**. Class can be defined as _class expression_ & _class decleration_
+
+![Basic Class Example](./assets/images/basic-class.png)
 
 ### Multiple ways to define an object
 
