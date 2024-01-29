@@ -13,22 +13,8 @@ An object is a collection of properties and a property is an association between
 
 ![object stringfield example](./assets/images/object-stringfield.png)
 
-### Class
-
-Classes is a blueprint of functionality to avoid code duplication.
-
-Classes are a template for creating objects. They encapsulate data with code to work on that data. Classes in JS are built on [prototypes](#prototypes) but also have some syntax and semantics that are unique to classes.
-
-Classes are in fact **Special functions**. Class can be defined as _class expression_ & _class decleration_
-
-![Basic Class Example](./assets/images/basic-class.png)
-
-### Constructor
-
-The constructor method is a special method of the [Class](#Class) for creating & initializing an object instance of that class.
-
-### Multiple ways to define an object
-
+<details>
+<summary><b>Multiple ways to define an object</b></summary>
 <table>
   <tr>
     <th align="left">01 - With object literals</th>
@@ -142,3 +128,20 @@ The constructor method is a special method of the [Class](#Class) for creating &
     </td>
   </tr>
 </table>
+</details>
+
+---
+
+### Class
+
+Classes is a blueprint of functionality to avoid code duplication.
+
+Classes are a template for creating objects. They encapsulate data with code to work on that data. Classes in JS are built on [prototypes](#prototypes) but also have some syntax and semantics that are unique to classes.
+
+Classes are in fact **Special functions**. Class can be defined as _class expression_ & _class decleration_
+
+![Basic Class Example](./assets/images/basic-class.png)
+
+### Constructor
+
+The constructor method is a special method of the [Class](#Class) for creating & initializing an object instance of that class.
