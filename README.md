@@ -10,7 +10,7 @@ An object is a collection of properties and a property is an association between
 - All keys get **"stringifiled"**
 
 <p align="center">
-  <img src="./assets/images/object-stringfield.png" width="80%" alt="object-stringfield" />
+  <img src="./assets/images/object-stringfield.png" width="65%" alt="object-stringfield" />
 </p>
 
 <details>
@@ -141,7 +141,7 @@ Classes are a template for creating objects. They encapsulate data with code to 
 Classes are in fact **Special functions**. Class can be defined as _class expression_ & _class decleration_
 
 <p align="center">
-  <img src="./assets/images/basic-class.png" width="80%" alt="basic-class" />
+  <img src="./assets/images/basic-class.png" width="65%" alt="basic-class" />
 </p>
 
 ### Constructor
@@ -156,7 +156,7 @@ The constructor method is a special method of the [Class](#Class) for creating &
   - assign properties
 
 <p align="center">
-  <img src="./assets/images/constructor.png" width="80%" alt="constructor" />
+  <img src="./assets/images/constructor.png" width="65%" alt="constructor" />
 </p>
 
 > [!TIP]
