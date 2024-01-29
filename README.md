@@ -2,8 +2,6 @@
 
 ## **{ }** Objects
 
-fetch-in-useEffect
-
 An object is a collection of properties and a property is an association between a `name (or key)` and a `value`. A property's value can be a function, in which case the property is known as `method`.
 
 ### Details should know
@@ -150,6 +148,27 @@ Classes are in fact **Special functions**. Class can be defined as _class expres
 
 The constructor method is a special method of the [Class](#Class) for creating & initializing an object instance of that class.
 
+**What to do with the constructor?**
+
+- Whatever you want.
+- Common things
+  - Validate data
+  - assign properties
+
+<p align="center">
+  <img src="./assets/images/constructor.png" width="80%" alt="constructor" />
+</p>
+
 > [!TIP]
 >
-> `this` refers to the instance of the class, not the class itself.
+> - Constructor calls automatically.
+>
+> - `this` refers to the instance of the class, not the class itself.
+
+> [!NOTE]
+>
+> - The constructor function always returns `undefined`
+>
+> - It's bad practice to to call constructor functions explicitly.
+
+---
