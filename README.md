@@ -132,7 +132,7 @@ An object is a collection of properties and a property is an association between
 
 ---
 
-### Class
+## Class
 
 Classes is a blueprint of functionality to avoid code duplication.
 
@@ -186,5 +186,11 @@ BankAccount class
 <p align="center">
   <img src="./assets/images/class-real-life-example.png" width="65%" alt="class-real-life-example" />
 </p>
+
+### Instance Methods
+
+- Functions are placed in a class are _`methods`_ (instance methods)
+- They have access to properties of the object with _`this`_
+- They take arguments/returns data like any other function.
 
 ---
