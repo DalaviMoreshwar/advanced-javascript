@@ -193,4 +193,11 @@ BankAccount class
 - They have access to properties of the object with _`this`_
 - They take arguments/returns data like any other function.
 
+### Inheritance
+
+- `Inheritance` means passing down characteristics from a parent to a child, so that new piece of code can reuse and build upon the features of exsiting one.
+- `extends` keyword is use to make inheritance.
+
+const
+
 ---
