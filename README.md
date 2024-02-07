@@ -206,4 +206,7 @@ BankAccount class
   <img src="./assets/images/super.png" width="65%" alt="super" />
 </p>
 
+> [!TIP]
+>
+> We have to call `super` when we add own properties of the child class.
 ---
