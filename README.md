@@ -198,6 +198,12 @@ BankAccount class
 - `Inheritance` means passing down characteristics from a parent to a child, so that new piece of code can reuse and build upon the features of exsiting one.
 - `extends` keyword is use to make inheritance.
 
-const
+### _`super`_ keyword 
+
+- The `super` keyword is used to access properties of an object literal or calss's `[[prototype]]`, or invoke a superclass's constructor.
+
+<p align="center">
+  <img src="./assets/images/super.png" width="65%" alt="super" />
+</p>
 
 ---
