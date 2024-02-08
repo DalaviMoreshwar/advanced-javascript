@@ -216,7 +216,7 @@ BankAccount class
 
 ---
 
-#### _`static`_ Properties & Methods
+### _`static`_ Properties & Methods
 
 - `static` methods and properties cannot directly accessed on instance of the class. Instead they're accessed by the `class` itself.
 
@@ -224,7 +224,7 @@ BankAccount class
   - `Math()` function
     - `Math.random()`
 
-##### **Exercises**
+#### **Exercises**
 
 > **ArrayUtils exercise**
 >
