@@ -237,3 +237,7 @@ BankAccount class
 >   <img src="./assets/images/exercise-1.png" width="65%" alt="super" />
 
 </p>
+
+> [!IMPORTANT]
+>
+> [Connect Four OO Exercise](https://rithm-students-assets.s3.us-west-1.amazonaws.com/udemy/exercises/connect-four-oo/handout/index.html)
