@@ -198,7 +198,7 @@ BankAccount class
 - `Inheritance` means passing down characteristics from a parent to a child, so that new piece of code can reuse and build upon the features of exsiting one.
 - `extends` keyword is use to make inheritance.
 
-### _`super`_ keyword 
+### _`super`_ keyword
 
 - The `super` keyword is used to access properties of an object literal or calss's `[[prototype]]`, or invoke a superclass's constructor.
 
@@ -206,7 +206,20 @@ BankAccount class
   <img src="./assets/images/super.png" width="65%" alt="super" />
 </p>
 
+<p align="center">
+  <img src="./assets/images/super-2.png" width="65%" alt="super" />
+</p>
+
 > [!TIP]
 >
 > We have to call `super` when we add own properties of the child class.
+
 ---
+
+#### _`static`_ Properties & Methods
+
+- `static` methods and properties cannot directly accessed on instance of the class. Instead they're accessed by the `class` itself.
+
+- Real life examples:
+  - `Math()` function
+    - `Math.random()`
