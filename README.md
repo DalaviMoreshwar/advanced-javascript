@@ -250,7 +250,7 @@ BankAccount class
 
 Allows to define the ways to retrive or change the values of an object properties respectively.
 
-### Getters
+#### Getters
 
 - Starts with `get` keyword
 - Using `set` keyword prefix, helps to define somthing like that looks and feels like a property, but it is actually a method behind the scean.
@@ -260,7 +260,7 @@ Allows to define the ways to retrive or change the values of an object propertie
  <img src="./assets/images/getter.png" width="65%" alt="getter" />
 </p>
 
-### Setters
+#### Setters
 
 - Allows a mechanism to set the value of an object property.
 - Example
