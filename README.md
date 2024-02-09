@@ -241,3 +241,36 @@ BankAccount class
 > [!IMPORTANT]
 >
 > [Connect Four OO Exercise](https://rithm-students-assets.s3.us-west-1.amazonaws.com/udemy/exercises/connect-four-oo/handout/index.html)
+
+---
+
+## 🌱 Newer Object Oriented Features
+
+### Getters & Setters
+
+Allows to define the ways to retrive or change the values of an object properties respectively.
+
+### Getters
+
+- Starts with `get` keyword
+- Using `set` keyword prefix, helps to define somthing like that looks and feels like a property, but it is actually a method behind the scean.
+- Example
+
+<p align="center">
+ <img src="./assets/images/getter.png" width="65%" alt="getter" />
+</p>
+
+### Setters
+
+- Allows a mechanism to set the value of an object property.
+- Example
+
+<p align="center">
+  <img src="./assets/images/setters.png" width="65%" alt="setter" /> 
+</p>
+
+- In the above example, it seems to be we are trying to change the property of the instance, but its function behind the scenes.
+
+> [!TIP]
+>
+> In the above example of `getter` and `setter` we have used **\_** (underscore) as a styling convention to indicate that the property is private.
