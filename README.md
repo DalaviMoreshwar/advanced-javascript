@@ -317,6 +317,35 @@ c1.radius = 4;
 console.log(c1.diameter, c1.color); // 8 'red'
 ```
 
+Another example
+
+```javascript
+class User {
+  constructor(firstName, lastName) {
+    this.firstName = firstName;
+    this.lastName = lastName;
+  }
+
+  get username() {
+    return `${this.firstName} ${this.lastName}`;
+  }
+
+  set name(name) {
+    const [firstName, lastName] = name.split(" ");
+    this.firstName = firstName;
+    this.lastName = lastName;
+  }
+}
+
+const U1 = new User("Brandon", "Joe");
+U1.name = "Jessica Mark";
+console.log(U1.username); /// Jessica Mark
+```
+
 > [!TIP]
 >
 > In the above example of `getter` and `setter` we have used **\_** (underscore) as a styling convention to indicate that the property is private.
+
+---
+
+### Class Fields (Public & Private)
