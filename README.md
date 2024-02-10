@@ -270,6 +270,52 @@ Allows to define the ways to retrive or change the values of an object propertie
 </p>
 
 - In the above example, it seems to be we are trying to change the property of the instance, but its function behind the scenes.
+-
+
+- ##### Example
+
+```javascript
+class Circle {
+  static allowedColors = new Set(["red", "green", "blue"]);
+
+  constructor(radius, color) {
+    this._radius = radius;
+    this.validateColor(color);
+  }
+
+  validateColor(newColor) {
+    if (Circle.allowedColors.has(newColor)) {
+      this._color = newColor;
+    } else {
+      throw new Error("Invalid color");
+    }
+  }
+
+  set radius(value) {
+    if (value < 0) {
+      throw new Error(`Circle radius must be positive.`);
+    } else {
+      this._radius = value;
+    }
+  }
+
+  set color(value) {
+    this.validateColor(value);
+  }
+
+  get diameter() {
+    return this._radius * 2;
+  }
+
+  get color() {
+    return this._color;
+  }
+}
+
+const c1 = new Circle(2, "red");
+c1.radius = 4;
+console.log(c1.diameter, c1.color); // 8 'red'
+```
 
 > [!TIP]
 >
