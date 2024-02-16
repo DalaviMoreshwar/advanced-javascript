@@ -8,8 +8,6 @@
 - Make sure to use **“http:”** or **“https:”** against **“JavaScript:”** URL-based script injection.
 - Besides, you must also leverage a native URL parsing functionality to validate the URL. Post that, make sure to match the parsed protocol property with the allow list.
 
-> [!TIP]
-
 **Do's**
 
 ```javascript
@@ -27,18 +25,28 @@ function validateURL(url) {
 <a href={attackerControlled}>Click here!</a>
 ```
 
+---
+
 ### Always sanitize and render HTML
+
+---
 
 ### Do not directly access DOM
 
+---
+
 ### Ensure sever side rendering is secure
+
+---
 
 ### Make sure to use non-vulnerable React versions
 
+---
+
 ### Make use of linter configuration
+
+---
 
 ### Do not use threatfull library codes
 
-```
-
-```
+---
