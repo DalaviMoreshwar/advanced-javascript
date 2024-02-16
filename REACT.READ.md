@@ -114,6 +114,6 @@ Make it a point to avoid leveraging React libraries that avoid using **dangerous
 
 ---
 
-## React Design Patterns
+## 🌱 React Design Patterns
 
 [Refer Blog](https://www.bacancytechnology.com/blog/react-design-patterns)
