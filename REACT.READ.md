@@ -9,21 +9,23 @@
 - Besides, you must also leverage a native URL parsing functionality to validate the URL. Post that, make sure to match the parsed protocol property with the allow list.
 
 > [!TIP]
->
-> Do this
->
-> ```javascript
-> function validateURL(url) {
->   const parsed = new URL(url);
->   return ["https:", "http:"].includes(parsed.protocol);
-> }
-> ```
->
-> <a href={validateURL(url) ? url : ""}>Click here!</a>;
->
-> ```
->
-> ```
+
+**Do's**
+
+```javascript
+function validateURL(url) {
+  const parsed = new URL(url);
+  return ["https:", "http:"].includes(parsed.protocol);
+}
+
+<a href={validateURL(url) ? url : ""}>Click here!</a>;
+```
+
+**Don't**
+
+```javascript
+<a href={attackerControlled}>Click here!</a>
+```
 
 ### Always sanitize and render HTML
 
