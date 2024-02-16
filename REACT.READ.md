@@ -2,8 +2,6 @@
 
 ## 🛡️ React security best practices
 
-[Read more](https://www.bacancytechnology.com/blog/react-security-solutions)
-
 ### Keep an eye on malicious URLs and URL-based injection
 
 - There can be URLs that might include dynamic script content through the **“JavaScript:”** protocol URL.
@@ -111,3 +109,11 @@ Ensure you review library code manually or with the linter configuration to prev
 Make it a point to avoid leveraging React libraries that avoid using **dangerouslySetInnerHTML**, **innerHTML**, **unvalidated URLs**, or other unsafe patterns. Additionally, you can use security linters to your **node_modules** folders to proactively detect malicious patterns in React code.
 
 ---
+
+[Refer Blog](https://www.bacancytechnology.com/blog/react-security-solutions)
+
+---
+
+## React Design Patterns
+
+[Refer Blog](https://www.bacancytechnology.com/blog/react-design-patterns)
